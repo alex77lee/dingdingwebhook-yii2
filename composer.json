@@ -1,0 +1,26 @@
+{
+  "name": "wowotuan/dingdingwebhook",
+  "version": "1.0",
+  "description": "dingding-webhook",
+  "type": "wowotuan-extension",
+  "keywords": ["dingding","webhook"],
+  "author": [
+    {
+      "name": "lidan",
+      "email": "lidan@xiyun.com.cn"
+    }
+  ],
+  "repositories": [
+    {"packagist":false}
+  ],
+  "support": {
+    "source": "https://github.com/alex77lee/yii-dingdingWebhook"
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "rmccue/requests": "*"
+  },
+  "autoload": {
+    "psr-4": {"wowotuan\\dingdingwebhook\\": ""}
+  }
+}
